@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home | Name</title>
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta property="og:title" content="Portfolio" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="http://localhost:4000/" />
+        <meta property="og:image" content="assets/images/" />
+        <meta property="og:site_name" content="Name" />
+        <meta property="og:locale" content="en_GB" />
+        <!-- Website Language (see here https://stackoverflow.com/questions/3191664/list-of-all-locales-and-their-short-codes) -->
+        <link href="assets/images/" rel="shortcut icon" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.min.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome-all.min.css">
+
+        <!-- JS -->
+        <script src="assets/js/typed.min.js"></script>
+        <script src="assets/js/js-head.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="burger" onclick="openMenu(this)">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav onclick="openMenu(this)">
+                <ul class="nav">
+                    <li><a href="index.html">Home<span></span></a></li>
+                    <li><a href="about.html">About<span></span></a></li>
+                    <li><a href="contact.html">Contact<span></span></a></li>
+                </ul>
+
+                <ul class="social">
+                    <li><a href="mailto:contact@name.com"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container container-home">
+            <div class="cover-home">
+                <div class="content">
+                    <h1 class="fade">Name</h1>
+                    <div class="type-wrap">
+                        <div id="typed-strings">
+                            <h2 class="fade">Typed</h2>
+                            <h2 class="fade">Strings</h2>
+                        </div>
+                        <span id="typed" style="white-space:pre;" class="fade"></span>
+                    </div>
+                </div>
+
+                <div class="arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+
+            <div class="list-projects">
+                <div class="glitch-item fade" onclick="location.href='project.html';">
+                    <div class="glitch glitch-1">
+                        <div class="glitch-img" style="background: url(assets/images/l-cover-fajny-css.jpg);"></div>
+                        <div class="glitch-img" style="background: url(assets/images/l-cover-fajny-css.jpg);"></div>
+                        <div class="glitch-img" style="background: url(assets/images/l-cover-fajny-css.jpg);"></div>
+                        <div class="glitch-img" style="background: url(assets/images/l-cover-fajny-css.jpg);"></div>
+                        <div class="glitch-img" style="background: url(assets/images/l-cover-fajny-css.jpg);"></div>
+                    </div>
+                    <h2 class="glitch-title">Demo<span>Position</span></h2>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <ul class="social">
+                <li><a href="mailto:contact@name.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <p>&copy; Name | 2019</p>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
